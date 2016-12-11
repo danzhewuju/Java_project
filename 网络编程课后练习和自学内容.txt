@@ -1,0 +1,76 @@
+匿名类-android
+
+ecipse
+netbean
+intelj idea
+
+
+GUI
+windowsbuilder插件
+netbean IDE 可以实现界面的所见即所得的设计
+
+都必须要掌握最基本的JAVA事件驱动的原理
+
+集合类-
+map集合来 key-value
+
+集合类很多，不同的集合用在不同场景性能不一样
+
+数据集（Set）-无序存放，不能有重复值
+     HashSet  TreeSet
+     哈希、散列
+线性表(List)-连续存放，有顺序有编号
+         ArrayList LinkedList
+       Vector,Stack
+映射(Map)-有key-value对，键值对，对应关系
+      根据key可以快速定位到值。
+     HashMap/HashTable
+
+迭代器(Iterator)接口-数据遍历访问的功能
+         遍历的性能非常高，
+
+第一方面：基于 HTTP协议的web资源访问
+   	http://www.usst.edu.cn/
+ 	https://
+    URL类-读资源
+    UrlConection-读，写
+
+
+第二方面：基于套接字Socket编程
+     
+
+	TCP-面向连接，可靠的传输，慢
+	UDP-面向无连接，不可靠传输，快，多媒体传输
+  端口 port:计算机网络通讯必须要打开的一扇门，门的编号就是端口号，如果门一直保持打开等待人进来的状态，这就是监听 状态listening
+
+       套路，标准流程
+        
+        需要至少两台计算机，一台是服务器Server，一台是客户端Client
+        保持监听状态，被动的被其他人连接的机器就是server
+        主动连接服务器的机器是client
+ 	端口号：整数 1-1024 
+                    4444 5555 9999
+
+      通讯难点：传输的数据的封装（字符、字节），流实现
+   
+
+EX1：编写一个爬虫demo ，爬取上海理工大学的所有新闻的标题。  
+	
+<font color=''>2016年学校冬季长跑比赛举行</font>
+
+正则表达式 提取字符串
+pattern macher
+
+
+EX2：
+
+	1、实现字符聊天的程序运行
+	2、实现两个客户端的字节数据（比如图片）的传输
+	3、实现多线程的socket编程（一对多的网络连接）
+
+
+        
+
+
+
+
