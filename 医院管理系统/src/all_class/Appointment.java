@@ -1,13 +1,15 @@
 package all_class;
 
-public class Appointment {
-	private String Appoint_time;
+import java.io.Serializable;
+
+public class Appointment implements Serializable  {
+	private int  Appoint_time;
 	private Office App_office;
 	private boolean Appoint;
-	public String getAppoint_time() {
+	public int  getAppoint_time() {
 		return Appoint_time;
 	}
-	public void setAppoint_time(String appoint_time) {
+	public void setAppoint_time(int  appoint_time) {
 		Appoint_time = appoint_time;
 	}
 	public Office getApp_office() {

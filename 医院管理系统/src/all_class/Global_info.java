@@ -1,12 +1,13 @@
 package all_class;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Global_info {
-ArrayList<Office> Count_office;//所有科室的数组
-ArrayList <Account> Account_list;//账号的数组
-HashMap Sorage_frug;
+public class Global_info implements Serializable {
+private ArrayList<Office> Count_office;//所有科室的数组
+private ArrayList <Account> Account_list;//账号的数组
+private ArrayList<Drug_info> Drug_list;//药品的数量
 public ArrayList<Office> getCount_office() {
 	return Count_office;
 }
@@ -19,10 +20,11 @@ public ArrayList<Account> getAccount_list() {
 public void setAccount_list(ArrayList<Account> account_list) {
 	Account_list = account_list;
 }
-public HashMap getSorage_frug() {
-	return Sorage_frug;
+public ArrayList<Drug_info> getDrug_list() {
+	return Drug_list;
 }
-public void setSorage_frug(HashMap sorage_frug) {
-	Sorage_frug = sorage_frug;
+public void setDrug_list(ArrayList<Drug_info> drug_list) {
+	Drug_list = drug_list;
 }
+
 }

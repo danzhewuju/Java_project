@@ -1,6 +1,8 @@
 package all_class;
 
-public class Patient_info {
+import java.io.Serializable;
+
+public class Patient_info implements Serializable  {
 	private String Name;
 	private boolean  Sex;
 	private int Years;

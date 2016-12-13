@@ -1,12 +1,17 @@
 package all_class;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class Case {
+public class Case implements Serializable {
    private Patient_info Pi;//个人的信息
+   private Appointment App;//预约的信息
+   private HashMap Drug_ha;//药品的类以及数量
+   private Charge_info Charge;//收费信息
    public Patient_info getPi() {
 	return Pi;
 }
+   
 public void setPi(Patient_info pi) {
 	Pi = pi;
 }
@@ -28,7 +33,5 @@ public Charge_info getCharge() {
 public void setCharge(Charge_info charge) {
 	Charge = charge;
 }
-private Appointment App;//预约的信息
-   private HashMap Drug_ha;//药品的类以及数量
-   private Charge_info Charge;//收费信息
+
 }

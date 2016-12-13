@@ -1,0 +1,32 @@
+package Server;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Server {
+	public static void Read_data() throws IOException{
+		FileReader in=new FileReader(".//ук╨епео╒.txt");
+		BufferedReader br=new BufferedReader(in);
+		String str;
+		
+		while((str=))
+		 String[]group= str.split(" ");
+		 
+		
+		System.out.println(group[0]);
+		
+		
+		in.close();
+		
+	
+		
+	}
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+        Read_data();
+	}
+
+}
